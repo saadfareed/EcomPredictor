@@ -1,0 +1,41 @@
+
+
+
+body{
+    /* background-color: whitesmoke */
+    background-image: linear-gradient(to bottom right, #A845F1, #2BB4EA);
+    min-height: 715px;
+}
+.bgBlack{
+   
+    background-color: whitesmoke;    
+    max-width: 36%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 5rem 2rem 5rem 2rem;
+    min-height: 459px;
+    height: auto !important;
+    border-radius: 2rem;
+    
+    box-shadow: 0 0 6px rgb(222, 255, 35);
+    transition: all 200ms ease-out;
+}
+.bgBlack:hover{
+    box-shadow: 40px 40px grey;
+}
+.link:hover{
+    color: blue;
+    
+}
+.link{
+    border: none;
+    color: blue;
+}
+.logo{
+    background-color: blue;
+    border-radius: 2rem;
+    text-align: center;
+    padding-bottom: .9rem;
+    margin-bottom: 2rem;
+}
+

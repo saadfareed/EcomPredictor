@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+.root{
+  display: flex;
+  
+}
+
+.header{
+  background-image: linear-gradient( 0deg,#003470 ,#003470);
+  padding: .6em 0;
+  padding-top: .5em;
+  position: relative; 
+  z-index: 1;
+}
+
+.logo{
+  display: inline;
+  margin-left: 2rem;
+}
+
+.app{
+  background: #003470;
+}
+
+.r_box{
+  padding: 2.5em 4em;
+  background-color: white;
+  border-radius: 47px 0 0 0;
+  
+  min-height: 100vh;
+}
+
+.link{
+  color: white;
+  
+}
+.left_col{
+  /* background: indigo; */
+  flex:.85;
+  background-image: linear-gradient( 180deg, #003470,#003470);
+  position: absolute;
+  width: 20%; 
+  top: 0;
+  bottom: -73px;
+  padding-top: 4.5rem;
+}
+  
+.right_col{
+  background: white;
+  flex:4;
+  border-top-left-radius: 2em;
+  /* border-radius: 100px; */
+  margin-left:20%;
+  width: 80%;
+  
+}
+
+.profilePic{
+  display: inline;
+  padding-left: .2em;
+  padding-right: 2em;
+  float: right;
+}
+.profilePicimg{
+  border-radius: 12em;
+  border : 2px solid white;
+  max-width: 3em;
+  
+}
+.namePlusPic{
+  display: inline;
+  float: right;
+}
+.changePlan{
+
+  display: inline;
+  float: right;
+  margin-top:1em;
+}
+.logout{
+  color: black;
+  display: inline;
+  float: right;
+  margin-right: 1rem;
+  margin-top:0.6em;
+  
+}
+.name{
+  display: inline;
+  color: white;
+  float: right;
+  padding-right: .5em;
+  padding-left: 3em;
+  margin-top:1em;
+  margin-right: 1.5rem;
+}

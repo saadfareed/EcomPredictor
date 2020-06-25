@@ -1,0 +1,33 @@
+
+
+.first_heading{
+    font-weight: 900;
+    font-size: 1.4em;
+}
+.heading{
+    font-weight: 900;
+    font-size: 1.4em;
+    margin-top: 2em;
+}
+.text{
+    font-size:1.1em;
+    margin: 0em 0em;
+}
+.paragraph{
+    margin: 1em 0em;
+}
+.cols{
+    font-size:1.1em;
+    margin: 2em 0em;
+    font-weight: 600;
+}
+.illustration{
+    max-width: 100%;
+}
+.inlineClass{
+    display: inline;
+}
+.loader{
+    margin-top: 9rem;
+    margin-left: 23rem;
+}

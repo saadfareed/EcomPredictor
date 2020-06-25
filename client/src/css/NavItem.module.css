@@ -1,0 +1,14 @@
+.icon{
+    display:inline;
+    padding-right: .5em;
+    max-width: 17.333333%;
+    padding-left: .5em;
+}
+.text{
+    display:inline;
+    padding-left: .5em;
+}
+
+.nav_item{
+    margin-left: 1rem;
+}

@@ -1,0 +1,122 @@
+
+body{
+    height:  100vh;
+}
+
+
+.logo{
+    max-width: 13rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+.heading{
+    font-weight: bolder;
+    color: white;
+}
+.para{
+    color: white;
+    margin-top: 3.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    max-width: 29rem;
+}
+.normalbtn{
+    color: white;
+    border-color: white;
+    font-weight: 700;
+}
+.normalbtn:hover{
+    color: blue;
+    background-color: white;
+}
+.hlghtBtn{
+    
+    background-color: white;
+    font-weight: 700;
+}
+.hlghtBtn:hover{
+    border-color: white;
+}
+
+
+.whiteBlob{
+    position: absolute;
+    left: 9rem;
+    max-width: 39rem;
+    top: -10.2rem;
+    z-index: 3;
+}
+.glowBlob{
+    position: absolute;
+    top: -13.5rem;
+    max-width: 44rem;
+    left: 4rem;
+    animation: move 4s linear infinite;
+
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(10px);
+    }
+}
+
+@keyframes move2{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+}
+
+@keyframes move3{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,5px);
+    }
+}
+
+
+.glowBlobBlue{
+    z-index: 5;
+    position: absolute;
+    right: -12.3rem;
+    top: 23.8rem;
+    max-width: 19rem;
+    animation: move3 4s linear infinite;
+    
+}
+.glowBlobBlue:hover{
+    
+}
+.blueBlob{
+    position: absolute;
+    z-index: 4;
+    
+    right: -12.39rem;
+    bottom: -11.2rem;
+    max-width: 25rem;
+}
+.img1{
+    position: absolute;
+    z-index: 7;
+    max-width: 33rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    animation: move2 3s linear infinite;
+    transition: margin-top 3s;
+}
+.img1:hover{
+    margin-top: 0;
+}
+.wb2{
+    position: absolute;
+    top: 38.8rem;
+}

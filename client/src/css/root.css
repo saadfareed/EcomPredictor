@@ -1,0 +1,36 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 1045px) {
+
+    body{
+        
+        background-color: #4A4A4A;
+        background-image: unset;
+    }
+    .message{
+        display: block;
+        font-size: 4rem;
+        /* margin: 14rem; */
+        
+        max-width: 19rem;
+        margin: auto;
+        color: white;
+        font-weight: bold;
+        
+    margin-top: 10rem;
+        
+    }
+    .content{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1045px) {
+    .message{
+        display: none;
+    }
+    .content{
+        display: block;
+    }
+
+}

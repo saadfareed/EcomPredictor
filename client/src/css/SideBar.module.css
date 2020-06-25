@@ -1,0 +1,26 @@
+.nav{
+    padding-right: 1.8em;
+    padding-left: 1.8em;
+    list-style-type: none;
+    margin: 3em 0em 1em 0em;
+}
+
+.nav_item{
+    color: white;
+    margin: 0em 0em 2em 0em;
+}
+
+.nav_item a{
+    color: white;
+}
+
+.link{
+    color: white;
+}
+.selected{
+    color: black;
+    margin: 0em 0em 2em 0em;
+    background-clip: white
+}
+
+
